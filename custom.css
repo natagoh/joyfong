@@ -1,0 +1,132 @@
+body, html {
+    width:100%;
+    height: 100%;
+}
+hr.small {
+    max-width: 100px;
+}
+.splash{
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url("img/beef.jpg") no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.text-vertical-center{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+h1 {
+    margin: 0;
+    color: white;
+}
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+/*text splash*/
+#text-splash {
+    
+}
+.p-text-splash{
+    margin:0;
+    text-align-last:left;
+}
+#about{
+    background-color: #a80e0e;
+    color: white;
+}
+.color-primary{
+    color: #a80e0e;
+}
+/*IMAGE SHOUTOUT*/
+#shoutout{
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background: url("img/placemat.jpg") no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+/*FOOD SHOWCASE*/
+#food{
+    background-color:#f4f4f2;
+}
+
+.img-food{
+    width: 75%;
+    height: auto;
+    margin-bottom: 30px;
+    position: relative;
+    border: solid white 6px;
+    box-shadow: 1px 1px 1px 1px #ccc;
+    /*
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;*/
+    
+}
+.img-food:hover{
+    /*-webkit-filter: blur(5px);*/
+    opacity: 0.5;
+    background-color:#000;
+    background-color: rgba(128, 128, 128, 0.28);
+}
+
+span.text-content {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 150px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 150px;
+}
+
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+/*MENU*/
+#menu{
+    background-color: #a80e0e;
+    color: white;
+}
+.menu-button, .menu-button:visited {
+    padding: 5px;
+    background-color: #a80e0e;
+    border: solid white 2px;
+}
+.menu-button:hover, .menu-button:active {
+    background-color: white;
+    color:#a80e0e;
+}
+
+/*MAP*/
+#map{
+    padding:0;
+}
+/*for map to scroll off*/
+.scrolloff {
+        pointer-events: none;
+    }
+
+/*FOOTER*/
+footer{
+    padding: 50px 0;
+    text-align: center;
+}
